@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="ruta/a/fontawesome/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../STYLES/styles.css" />
+  <link rel="stylesheet" href="../STYLES/movile.css">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+header nav {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+nav .nav-Karina {
+  width: 80%;
+  height: auto;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+nav .nav-Karina .navegacion {
+  width: 80%;
+  height: auto;
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+nav .nav-Karina .navegacion ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+nav .nav-Karina .navegacion ul li a {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+nav .nav-Karina .navegacion ul li a:hover {
+  color: #3f8e00;
+}
+/* Redes Sociales */
+nav .nav-Karina .RedesSociales {
+  width: 20%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.3rem;
+}
+nav .nav-Karina .RedesSociales .Red {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-Karina .RedesSociales .Red i {
+  color: #9c9c9c;
+}
+nav .nav-Karina .RedesSociales .Red i:hover {
+  color: #3f8e00;
+}
+/**Main*/
+main .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+main .container .Contenido {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+main .container .Contenido .Centrado {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1.3rem;
+  padding-left: 25px;
+}
+.container .Contenido .Centrado .title h1 {
+  font-size: 44px;
+}
+.container .Contenido .Centrado .parrafo p {
+  color: #9c9c9c;
+  font-size: 14px;
+}
+.container .Contenido .Centrado .button #btnEmpezar {
+  background-color: #3f8e00;
+  border: none;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 100;
+  font-weight: bold;
+  padding: 14px 45px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.container .Contenido .Centrado .button #btnEmpezar:hover {
+  background-color: #62ba1b;
+  box-shadow: 5px 5px 15px #62ba1b;
+}
+
+main .Foto {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+main .Foto img {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/**Footer*/
+footer .footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.footer .footer_Center {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer .footer_Center button {
+  border: 1px solid #1b1b1b;
+  padding: 12px 23px;
+  gap: 1.2rem;
+  border-radius: 3px;
+  background-color: #080808;
+  color: #1b1b1b;
+  box-shadow: 25px 25px 233px #474747;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.footer .footer_Center button:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #2d2d2d;
+  box-shadow: 25px 25px 233px #cac5c5;
+}
+
+    /* Media Queries para móviles */
+@media (max-width: 480px) {
+  nav .nav-Karina .navegacion {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-Karina .navegacion ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navegacion ul {
+    flex-direction: column;
+  }
+
+  .RedesSociales {
+    flex-wrap: wrap;
+  }
+
+  .Centrado .title h1 {
+    font-size: 20px;
+  }
+
+  .Centrado .parrafo p {
+    font-size: 14px;
+  }
+
+  .Centrado .button button {
+    font-size: 14px;
+  }
+  main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  main .container .Foto {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    width: fit-content;
+  }
+  .footer .footer_Center {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer_Center button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-Karina">
+          <div class="navegacion">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Case Studies</a></li>
+              <li><a href="">Testimonios</a></li>
+              <li><a href="">Contactame</a></li>
+              <li><a href="">Quien soy</a></li>
+            </ul>
+          </div>
+          <div class="RedesSociales">
+            <div class="Red Facebook">
+              <i class="fab fa-facebook"></i>
+            </div>
+            
+            <div class="Red Instagram">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="Red youtube">
+               <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+      </nav>
+    </header>
+<main>
+  <div class="container">
+    <div class="Contenido">
+     <div class="Centrado">
+      <div class="title">
+        <h1>Mirian Karina</h1>
+      </div>
+      <div class="parrafo"><p> estudiante de enfermería dedicada y apasionada por el cuidado de los demás. Mi vocación nace de su empatía y deseo de ayudar a quienes lo necesitan, esforzándose cada día por convertirse en una profesional que marque la diferencia en la vida de las personas.</p></div>
+      <div class="button"><button id="btnEmpezar">Let’s get started</button></div>
+     </div>
+    </div>
+    <div class="Foto">
+      <img src="../FONTS/perfil.jpg" alt="">
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="footer">
+    <div class="footer_Center">
+      <button id="btn btn1">EsSalud</button>
+      <button id="btn btn2">Hospital Niños</button>
+      <button id="btn btn3">Minedu</button>
+      <button id="btn btn4">San Borja</button>
+      <button id="btn btn5">San Isidro</button>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
